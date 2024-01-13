@@ -1,11 +1,9 @@
-### Weather Application
-#### Projeto feito com objetivo de treinar consultas API. Utilizado apenas Javascript puro e CSS puro.
-<br>
+### Weather Application.
+#### Projeto de consulta de clima, feito com objetivo de treinar consultas API em Javascript. Utilizado apenas Javascript puro.
 
 #### Imagem da interface:
 <br>
 
-<div align="center">
-  <img height="50" src="">
-  <img height="50" src="">
-</div>
+<img height="120" src="weather-app-img1.png">
+<img height="320" src="weather-app-img2.png">
+
