@@ -1,5 +1,5 @@
 ### Weather Application.
-#### Projeto de consulta de clima, feito com objetivo de treinar consumo de API em Javascript. Utilizado apenas Javascript puro.
+#### Projeto de pesquisa e consulta de dados climáticos, feito com objetivo de treinar consumo de API em Javascript. 
 
 #### Imagem da interface:
 <br>
