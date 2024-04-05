@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: #161616
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    height: auto;
+    width: 350px;
+
+    border-radius: 10px;
+
+    background-color: #f8f8f8;
+}
+
+
+/*Search bar*/
+#title{
+    text-align: center;
+    margin-top: 35px;
+    font: 15px 'Work Sans', sans-serif;
+    display: block;
+    
+    color: #000000;
+    letter-spacing: 1.5px;
+}
+
+#search-bar{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#search-bar button{
+    padding: 8px;
+    margin: 10px;
+    height: 33px;
+
+    border: 1.5px solid #000000;
+    border-radius: 50%;
+
+    color: #000000;
+    background-color: #f8f8f8;
+
+    outline: none;
+    
+    transition: 0.3s;
+}
+
+#search-bar button:hover{
+    background-color: #000000;
+    color: #f8f8f8;
+    cursor: pointer;
+}
+
+#search-bar input{
+    padding: 10px;
+    height: 10px;
+
+    border-radius: 6px;
+    border: 1.5px solid #000000;
+
+    outline: none;
+    
+    font: 12px 'Work Sans', sans-serif;
+
+    letter-spacing: 1px;
+    font: 500 12px 'Work Sans', sans-serif;
+
+    background-color: #f8f8f8;
+    color: #000000;
+    
+}
+
+::placeholder {
+    color: #bebebe;
+    font: 12px 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+/*City*/
+
+#city{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#city-name{
+    margin: 10px;
+    font: 500 15px 'Work Sans', sans-serif;
+    color: #000000;
+    letter-spacing: 1.5px;
+}
+
+
+#country{
+    height: 24px;
+}
+
+/*Temp*/
+#temperature{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 20px;
+    margin-right: 15px;
+
+    font: 600 60px 'Work Sans', sans-serif;
+    color: #000000;
+}
+
+
+/*Details*/
+#details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font: 500 15px 'Work Sans', sans-serif;
+    margin-bottom: 25px;
+}
+#details p{
+    margin: 15px;
+    color: #000000;
+}
+
+
+/*Desc*/
+#description-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font: 500 15px 'Work Sans', sans-serif;
+    text-transform: capitalize;
+
+}
+#description-container p{
+    margin-right: 10px;
+    color: #000000;
+}
+#description-container img{
+    height: 44px;
+}
